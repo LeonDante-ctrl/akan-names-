@@ -8,7 +8,6 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src='main.js'></script>
 </head>
 
 <body>
@@ -20,14 +19,27 @@
     </ul>
   </div>
   <div id="home">
-    <img src="images/congo.jpg" height="500px" width="100%">
+    <img src="images/congo.jpg" height="auto"width="100%">
     <h1>Akan Names</h1>
     <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+    <div id="userbirthday">
+        <h1>Interested?</h1>
+        <h2>Fill this form below to know your AKAN name instantly</h2>
+        <label>DAY</label><br>
+    <input type="number"id="day"placeholder="DD"class="form-control"required><br><br><br>
+    <label>MONTH</label><br>
+    <input type="number"id="month"placeholder="MM"class="form-control"required><br><br><br>
+    <label>YEAR</label><br>
+    <input type="number"id="year"placeholder="YYYY"class="form-control"required><br><br><br>
+    <input type="radio"name="gender"id="gender"value="male"checked>Male<br><br><br>
+    <input type="radio"name="gender"value="female"checked>Female<br><br><br>
+    <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
 
+      </div>
 
   </div>
 
-
+  <script src='index.js'></script>
 </body>
 
 </html> 
