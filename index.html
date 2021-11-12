@@ -8,30 +8,37 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arapey&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
 </head>
 
-<body>
-
-    <div id="nav">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#userbirthday">User Birthday</a></li>
-        </ul>
-      </div>
-      <div id="home">
-        <img src="images/congo.jpg" height="500px" width="100%">
-        <h1>Akan Names</h1>
+<body style="background-color: aqua;">
+         <h1>Akan Names</h1>
         <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+      <h1>What is your Akan Name misterrrrr?</h1>
+      <div class="form row">
+        <div class="col-4">
+            </div>
+    <div class="container margin">
+                <label>Day</label><br>
+                <input type="number" id="day" placeholder="DD" required ><br>
+                <label>Month</label><br>
+                <input type="number" id="month" placeholder="MM" required ><br>
+                <label>Year</label><br>
+                <input type="number" id="year" placeholder="YYYY" required ><br>
+                <label>Gender</label><br>
+                <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female" > Female<br>
+                <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
+                <div id="outcome"></div>
       </div>
-      <div id="userbirthday">
-        <h1>CURIOUS!</h1>
-        <h2>Fill in this form to get your results immediately</h2>
-        <label>DAY</label><br>
-        <input type="number"id="day"placeholder="DD"class="form-control"required><br><br><br>
-        <label>MONTH</label><br>
-        <input type="number"id="month"placeholder="MM"class="form-control"required><br><br><br>
-        <label>YEAR</label><br>
-        <input type="number"id="year"placeholder="YYYY"class="form-control"required><br><br><br>
-        <input type="radio"name="gender"id="gender"value="male"checked>Male<br><br><br>
-        <input type="radio"name="gender"value="female"checked>Female<br><br><br>
-        <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
+    
+        <script src='index.js'></script>
+</body>
+
+</html>
