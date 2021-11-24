@@ -60,7 +60,7 @@ Friday: Afua
 
 Saturday: Ama
 
-This system right here will give you a set name derived from the akan naming system based on your gender and day 
+This system right here will give you a set name derived from the akan naming system based on your gender and day .
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
