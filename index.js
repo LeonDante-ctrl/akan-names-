@@ -17,17 +17,19 @@ function output() {
                 }
     if (mm < 1 || mm > 12 || mm == 2 && dd > 29) {
     alert("INVALID MONTH");
+    $('#patch').hide();
     }
+    if (yy < 1 || yy == "" && yy > "") {
+        alert("INVALID MONTH");
+        $('#patch').hide();
+        }
         else if (dd < 1 || dd > 31) {
         alert("INVALID DAY");
+        $('#patch').hide();
         }
         else if (Math.ceil(result) == 1 && gender === 'male');{
         document.getElementById("outcome").innerHTML =
         ("Born on Monday ,your akan name is " + boy[1]);
-        }
-        if(mm !== "" || dd !== "") {
-            alert("Input correct details")
-            $('#outcome').hide();
         }
    if (Math.ceil(result) == 2 && gender === 'male') {
     document.getElementById("outcome").innerHTML =
@@ -84,4 +86,5 @@ function output() {
    else {
     alert("You have not entered any information");
     }
+    
     }
