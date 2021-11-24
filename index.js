@@ -25,6 +25,10 @@ function output() {
         document.getElementById("outcome").innerHTML =
         ("Born on Monday ,your akan name is " + boy[1]);
         }
+        if(mm !== "" || dd !== "") {
+            alert("Input correct details")
+            $('#outcome').hide();
+        }
    if (Math.ceil(result) == 2 && gender === 'male') {
     document.getElementById("outcome").innerHTML =
     ("Born on Tuesday ,your akan name is " + boy[2]);
