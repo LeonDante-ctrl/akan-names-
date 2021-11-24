@@ -21,10 +21,17 @@ h1{
     position: relative;
     max-width: 800px;
     margin: 0;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlag_of_Ghana&psig=AOvVaw0Lfw0iZCkmw0ds2M_RZl6K&ust=1637846471672000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCqvNuLsfQCFQAAAAAdAAAAABAD');
   }
   @media screen and (min-width:480px) and (max-width:600px){
     body{
       background-color: brown;
       color: cadetblue;
     }
+  }
+
+  .jumbotron {
+    cursor: pointer;
+    text-decoration: thistle;
+    text-decoration-line: underline;
   }
